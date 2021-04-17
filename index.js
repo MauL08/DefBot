@@ -2,7 +2,6 @@ require('dotenv').config();
 
 const { Client, Collection, MessageEmbed } = require('discord.js');
 const bot = new Client();
-const channelID = '830820459825201230';
 
 const PREFIX = '$'
 
