@@ -1,0 +1,22 @@
+{
+  "name": "defbot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Default",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Akbar",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "heroku": "^7.52.0",
+    "nodemon": "^2.0.7"
+  }
+}
