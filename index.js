@@ -40,7 +40,7 @@ bot.on("message", (message) => {
 bot.on("guildMemberAdd", async member => {
     let channel = member.guild.channels.cache.find(c => c.name === 'welcome')
     let WELCOME = new MessageEmbed()
-        .setTitle(`Welcome, ${member.user}`)
+        .setTitle(`Hello, ${member.user}`)
         .setDescription(`Welcome to DEFAULT Discord Channel ${member.user}, we are happy to have you!`)
         .setColor('RANDOM')
         .setTimestamp()
